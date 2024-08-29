@@ -24,9 +24,15 @@ wget http://acsc.cs.utexas.edu/cpabe/cpabe-0.11.tar.gz
 tar xf cpabe-0.11.tar.gz
 cd cpabe-0.11
 ./configure 
+
 #fix bugs in makefile and policy_lang.y
 sed -i '/-lglib-2.0 \\/a -Wl,--copy-dt-needed-entries \\' Makefile
 sed -i '/result: policy { final_policy = $1 }/s/$1 }/$1; }/' policy_lang.y
 
 make && sudo make install
 cd ..
+
+#Install PIP to install pandas
+sudo apt --assume-yes install python3-pip
+pip install pandas
+
