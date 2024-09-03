@@ -7,3 +7,5 @@ sudo apt --assume-yes install apache2
 sudo systemctl start apache2
 sudo sudo mv dash/ /var/www/html
 
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/TC-server.sh
+bash TC-server.sh
