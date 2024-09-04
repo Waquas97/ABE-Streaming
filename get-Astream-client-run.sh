@@ -12,7 +12,6 @@ rm Astream-DASH-Client-with-Decryption.tar.xz
 
 # run dash client, might need to remove this from here later
 cd client
-python dash_client.py -m http://10.10.1.2/allI.mpd -p basic -d
-
+#python dash_client.py -m http://10.10.1.2/dash/BigBuckBunny-allI.mpd -p basic -d
 
 
