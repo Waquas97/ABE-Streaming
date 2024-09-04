@@ -8,6 +8,7 @@ base_url="https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuc
 
 # Outer loop for the streams (0 to 4)
 for stream in {0..4}; do
+    wget -L "${base_url}init-stream${stream}.m4s"
     # Inner loop for the chunks (00001 to 00150)
     for chunk in $(seq -f "%05g" 1 150); do
         # Construct the file name
@@ -18,7 +19,7 @@ for stream in {0..4}; do
         
         # Download the file using wget
         wget -L "${url}"
-        wget -L "${base_url}init-stream${stream}.m4s"
+
     done
 done
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-allI/BigBuckBunny-allI.mpd
