@@ -18,8 +18,15 @@ for stream in {0..4}; do
         
         # Download the file using wget
         wget -L "${url}"
+        wget -L "${base_url}init-stream${stream}.m4s"
     done
 done
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-allI/BigBuckBunny-allI.mpd
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-allI/BigBuckBunny-allI-copy1.mpd
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-allI/BigBuckBunny-allI-copy2.mpd
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-allI/BigBuckBunny-allI-copy3.mpd
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-allI/BigBuckBunny-allI-copy4.mpd
+
 cd
 
 sudo apt update
