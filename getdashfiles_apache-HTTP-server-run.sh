@@ -38,3 +38,7 @@ sudo systemctl start apache2
 
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/TC-server.sh
 bash TC-server.sh
+
+sudo mv *.m4s /var/www/html/
+sudo mv *.mpd /var/www/html/
+sudo tail -f /var/log/apache2/access.log | grep '10.10'
