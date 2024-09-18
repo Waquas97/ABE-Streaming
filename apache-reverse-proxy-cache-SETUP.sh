@@ -12,14 +12,14 @@ cmake --build build
 cmake --build build -t test
 sudo cmake --install build
 
-cd /opt/ts/etc/trafficserver/
+cd
 
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/records.yaml
-sudo rm -r opt/ts/etc/trafficserver/records.yaml
-sudo mv records.yaml opt/ts/etc/trafficserver/ 
+sudo rm /opt/ts/etc/trafficserver/records.yaml
+sudo mv records.yaml /opt/ts/etc/trafficserver/ 
 
-echo 'map https://10.10.1.2:443 https://10.10.1.1:443' | sudo tee -a opt/ts/etc/trafficserver/remap.config
-echo 'map http://10.10.1.2:80 http://10.10.1.1:80' | sudo tee -a opt/ts/etc/trafficserver/remap.config
+echo 'map https://10.10.1.2:443 https://10.10.1.1:443' | sudo tee -a /opt/ts/etc/trafficserver/remap.config
+echo 'map http://10.10.1.2:80 http://10.10.1.1:80' | sudo tee -a /opt/ts/etc/trafficserver/remap.config
 sudo ./opt/ts/bin/trafficserver restart
 
 
