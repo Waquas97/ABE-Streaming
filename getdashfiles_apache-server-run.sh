@@ -38,7 +38,7 @@ sudo apt --assume-yes install openssl
 sudo a2enmod ssl
 sudo a2ensite default-ssl
 sudo ufw allow 'Apache Full'
-sudo systemctl start apache2
+sudo systemctl restart apache2
 
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/TC-server.sh
 bash TC-server.sh
