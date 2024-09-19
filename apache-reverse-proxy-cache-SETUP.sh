@@ -11,6 +11,8 @@ cmake -B build -DCMAKE_INSTALL_PREFIX=/opt/ts
 cmake --build build
 cmake --build build -t test
 sudo cmake --install build
+cd /opt/ts
+sudo bin/traffic_server -R 1
 
 cd
 
