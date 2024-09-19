@@ -37,7 +37,7 @@ records:
 ##############################################################################
   diags:
     debug:
-      enabled: 1
+      enabled: 0
       tags: http|dns
 
 #    https://docs.trafficserver.apache.org/en/latest/admin-guide/files/records.yaml.en.html#proxy-config-dump-mem-info-frequency
@@ -52,7 +52,7 @@ records:
     autoconfig:
       enabled: 1
       scale: 1.0
-limit: 2
+    limit: 2
   http:
     accept_no_activity_timeout: 120
     cache:
