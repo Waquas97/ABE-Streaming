@@ -22,6 +22,8 @@ sudo mv records.yaml /opt/ts/etc/trafficserver/
 
 echo 'map https://10.10.1.2:443 https://10.10.1.1:443' | sudo tee -a /opt/ts/etc/trafficserver/remap.config
 echo 'map http://10.10.1.2:80 http://10.10.1.1:80' | sudo tee -a /opt/ts/etc/trafficserver/remap.config
+echo 'dest_ip=* ssl_cert_name=server.crt ssl_key_name=server.key' | sudo tee -a /opt/ts/etc/trafficserver/ssl_multicert.config
+
 sudo /opt/ts/bin/./trafficserver restart
 
 
