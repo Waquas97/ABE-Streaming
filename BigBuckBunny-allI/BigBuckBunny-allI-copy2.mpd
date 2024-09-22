@@ -634,7 +634,7 @@
 					<SegmentURL media="enc_allI_chunk-stream3-00150-copy2.m4s" />
 				</SegmentList>
 			</Representation>
-			<Representation id="4" mimeType="video/mp4" codecs="avc1.640028" bandwidth="4976809" origbandwidth="5000000" width="1920" height="1080" sar="1:1">
+			<Representation id="4" mimeType="video/mp4" codecs="avc1.640028" bandwidth="5002267" origbandwidth="5000000" width="1920" height="1080" sar="1:1">
 				<SegmentList timescale="1000000" duration="4000000" startNumber="1">
 					<Initialization sourceURL="init-stream4-copy2.m4s" />
 					<SegmentURL media="enc_allI_chunk-stream4-00001-copy2.m4s" />
