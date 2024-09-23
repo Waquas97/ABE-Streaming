@@ -45,3 +45,4 @@ bash TC-server.sh
 
 sudo mv *.m4s /var/www/html/
 sudo mv *.mpd /var/www/html/
+sudo apt-get --assume-yes install sysstat
