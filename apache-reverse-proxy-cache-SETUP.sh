@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt-get update
+sudo apt-get --assume-yes install sysstat
 sudo apt-get --assume-yes install -y gcc g++ make libssl-dev tcl libexpat1-dev libpcre3-dev zlib1g-dev libcap-dev libxml2-dev libtool
 sudo apt-get --assume-yes install cmake
 sudo apt-get --assume-yes install pkg-config
