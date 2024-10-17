@@ -28,12 +28,8 @@ wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckB
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-allI/BigBuckBunny-allI-copy3.mpd
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-allI/BigBuckBunny-allI-copy4.mpd
 
-wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/symlinkgen.sh
-bash symlinkgen.sh
-cd
 
-#get video segments
-cd /var/www/html
+cd
 
 # Base URL for the files
 base_url="https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-original/"
@@ -60,7 +56,7 @@ wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckB
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-original/original-copy3.mpd
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-original/original-copy4.mpd
 
-wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/HTTPS-symlinkgen.sh
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/l1l2-cache/symlinkgen.sh
 bash HTTPS-symlinkgen.sh
 cd
 
@@ -72,7 +68,7 @@ sudo a2ensite default-ssl
 sudo ufw allow 'Apache Full'
 sudo systemctl restart apache2
 
-wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/TC-server.sh
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/l1l2-cache/TC-server.sh
 bash TC-server.sh
 
 sudo mv *.m4s /var/www/html/
