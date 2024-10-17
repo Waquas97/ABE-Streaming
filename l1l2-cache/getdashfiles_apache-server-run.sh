@@ -57,7 +57,7 @@ wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckB
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/BigBuckBunny-original/original-copy4.mpd
 
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/l1l2-cache/symlinkgen.sh
-bash HTTPS-symlinkgen.sh
+bash symlinkgen.sh
 cd
 
 sudo apt update
