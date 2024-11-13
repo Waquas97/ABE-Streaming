@@ -10,8 +10,8 @@ tar -xf http-client.tar.xz
 rm http-client.tar.xz
 
 # Get Astream DASH client
-wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/l1l2-cache/https-client.tar.xz
-tar -xf https-client.tar.xz
-rm https-client.tar.xz
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/l1l2-cache/https-client.tax.xz
+tar -xf https-client.tax.xz
+rm https-client.tax.xz
 
 
