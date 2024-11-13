@@ -7,12 +7,13 @@ bash setup-cpabetoolkit.sh
 # Get Astream DASH client
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/l1l2-cache/http-client.tar.xz
 mkdir client
-tar -xf Astream-DASH-Client-with-Decryption.tar.xz -C client
-rm Astream-DASH-Client-with-Decryption.tar.xz
+tar -xf http-client.tar.xz -C https-client
+rm http-client.tar.xz
 
-# run dash client, might need to remove this from here later
-cd client
-#python dash_client.py -m http://10.10.1.2/dash/BigBuckBunny-allI.mpd -p basic -d
-
+# Get Astream DASH client
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/l1l2-cache/https-client.tar.xz
+mkdir https-client
+tar -xf https-client.tar.xz -C https-client
+rm https-client.tar.xz
 
 
