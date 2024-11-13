@@ -6,14 +6,12 @@ bash setup-cpabetoolkit.sh
 
 # Get Astream DASH client
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/l1l2-cache/http-client.tar.xz
-mkdir client
-tar -xf http-client.tar.xz -C https-client
+tar -xf http-client.tar.xz 
 rm http-client.tar.xz
 
 # Get Astream DASH client
 wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/l1l2-cache/https-client.tar.xz
-mkdir https-client
-tar -xf https-client.tar.xz -C https-client
+tar -xf https-client.tar.xz
 rm https-client.tar.xz
 
 
