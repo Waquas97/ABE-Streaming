@@ -1,3 +1,0 @@
-This folder is for files associated with submission 1 of ACMMSYS
-
-DASH clients have rebuffering issue
