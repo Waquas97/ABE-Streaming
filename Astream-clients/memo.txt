@@ -1,0 +1,6 @@
+These are all different version of Astream modifications.
+
+common fixes: MPD read, and some other??
+
+full-client : full segments are encrypted and decrypted with ABE. Rebuffering fixed.
+https-client : original AStream but with rebuffering fix.
