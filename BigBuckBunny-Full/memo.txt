@@ -1,0 +1,1 @@
+Full encryption per segment using ABE. NO frame based selective encryption.
