@@ -4,3 +4,4 @@ common fixes: MPD read, and some other??
 
 full-client : full segments are encrypted and decrypted with ABE. Rebuffering fixed.
 https-client : original AStream but with rebuffering fix.
+perframe-http-client: Selective encryption per frame using ABE. Rebuffering fixed.
