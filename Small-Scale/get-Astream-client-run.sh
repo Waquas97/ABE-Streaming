@@ -7,12 +7,12 @@ wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/Small-Sc
 bash setup-cpabetoolkit.sh
 
 # Get Astream DASH client
-wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/Small-Scale/https-client.tax.xz
-tar -xf https-client.tax.xz
-rm https-client.tax.xz
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/Small-Scale/https-client.tar.xz
+tar -xf https-client.tar.xz
+rm https-client.tar.xz
 
 # Get Astream DASH client
-wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/Small-Scale/full-client.tax.xz
-tar -xf full-client.tax.xz
-rm full-client.tax.xz
+wget -L https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/Small-Scale/full-client.tar.xz
+tar -xf full-client.tar.xz
+rm full-client.tar.xz
 
