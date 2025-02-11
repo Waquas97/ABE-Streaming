@@ -5,3 +5,5 @@ common fixes: MPD read, and some other??
 full-client : full segments are encrypted and decrypted with ABE. Rebuffering fixed.
 https-client : original AStream but with rebuffering fix.
 perframe-http-client: Selective encryption per frame using ABE. Rebuffering fixed.
+
+360-SE-client: Selective encryption per frame using ABE. 360 video client, performs 4 tile downloads per chunk.
