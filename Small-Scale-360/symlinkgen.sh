@@ -5,7 +5,7 @@
 for tile in {1..9}; do
    for copy in {1..4}; do
       # Outer loop for the streams (0 to 4)
-      for stream in {0..4}; do
+      for stream in {0..3}; do
          ln -s "init-stream${stream}.m4s" "init-stream${stream}-copy${copy}.m4s"
           # Inner loop for the chunks (00001 to 00074)
           for chunk in $(seq -f "%05g" 1 74); do
@@ -25,7 +25,7 @@ for scheme in {"allI","allP"};do
    for tile in {1..9}; do
       for copy in {1..4}; do
          # Outer loop for the streams (0 to 4)
-         for stream in {0..4}; do
+         for stream in {0..3}; do
             ln -s "init-stream${stream}.m4s" "init-stream${stream}-copy${copy}.m4s"
             # Inner loop for the chunks (00001 to 00074)
             for chunk in $(seq -f "%05g" 1 74); do
