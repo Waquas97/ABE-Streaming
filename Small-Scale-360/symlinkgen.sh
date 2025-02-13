@@ -15,7 +15,8 @@ for tile in {1..4}; do
            
               ln -s $file_name $copy_name
         
-       done
+          done
+      done
    done
 done
 
