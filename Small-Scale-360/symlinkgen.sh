@@ -2,7 +2,7 @@
 
 
 #copy 4 sets
-for tile in {1..4}; do
+for tile in {1..9}; do
    for copy in {1..4}; do
       # Outer loop for the streams (0 to 4)
       for stream in {0..4}; do
@@ -13,7 +13,7 @@ for tile in {1..4}; do
               file_name="tile${tile}-chunk-stream${stream}-${chunk}.m4s"
               copy_name="tile${tile}-chunk-stream${stream}-${chunk}-copy${copy}.m4s"
            
-              ln -s $file_name $copy_name
+              sudo ln -s $file_name $copy_name
         
           done
       done
@@ -22,7 +22,7 @@ done
 
 #copy 4 sets
 for scheme in {"allI","allP"};do
-   for tile in {1..4}; do
+   for tile in {1..9}; do
       for copy in {1..4}; do
          # Outer loop for the streams (0 to 4)
          for stream in {0..4}; do
@@ -33,7 +33,7 @@ for scheme in {"allI","allP"};do
                file_name="tile${tile}-enc_${scheme}_chunk-stream${stream}-${chunk}.m4s"
                copy_name="tile${tile}-enc_${scheme}_chunk-stream${stream}-${chunk}-copy${copy}.m4s"
             
-               ln -s $file_name $copy_name
+               sudo ln -s $file_name $copy_name
          
             done
          done
