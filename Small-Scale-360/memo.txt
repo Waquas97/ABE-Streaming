@@ -3,5 +3,5 @@ ABE experiment for 360 tiled video streaming.
 Modified Astream client to stream 4 tiles per chunk. Using Selective encryption per frame encryption with HTTP-ABE approach.
 
 ToDo for this experiment:
-1. Server realted scripts left, depend on whagt video we will select for streaming experiments
-2. temporarily TC cache and server is doubled of earlier 100-->200, 30-->60 so on. needs fixing.
+1. Server realted scripts left for SE ABE
+ABE work left a bit,
