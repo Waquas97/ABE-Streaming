@@ -7,6 +7,7 @@ cp -r 360-https-client/ 360-https-client2
 cp -r 360-https-client/ 360-https-client3
 cp -r 360-https-client/ 360-https-client4
 cp -r 360-https-client/ 360-https-client5
+cp -r 360-https-client/ 360-https-client6
 rm -r 360-https-client
 
 
@@ -16,4 +17,5 @@ cp -r 360-SE-client/ 360-SE-client2
 cp -r 360-SE-client/ 360-SE-client3
 cp -r 360-SE-client/ 360-SE-client4
 cp -r 360-SE-client/ 360-SE-client5
+cp -r 360-SE-client/ 360-SE-client6
 rm -r 360-SE-client
