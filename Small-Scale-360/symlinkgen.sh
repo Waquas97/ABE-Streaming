@@ -10,8 +10,8 @@ for tile in {1..4}; do
           # Inner loop for the chunks (00001 to 00074)
           for chunk in $(seq -f "%05g" 1 74); do
               # Construct the file name
-              file_name="${tile}-chunk-stream${stream}-${chunk}.m4s"
-              copy_name="${tile}-chunk-stream${stream}-${chunk}-copy${copy}.m4s"
+              file_name="tile${tile}-chunk-stream${stream}-${chunk}.m4s"
+              copy_name="tile${tile}-chunk-stream${stream}-${chunk}-copy${copy}.m4s"
            
               ln -s $file_name $copy_name
         
