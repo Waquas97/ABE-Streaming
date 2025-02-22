@@ -9,6 +9,7 @@ base_url="https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/Help36
 
 for i in {1..30}; do
     wget -L "${base_url}30MPDS-headtraces-symlinks/help360-SE-ABE-MajorP-MinorI-4tiles-${i}.mpd"
+done
 
 for scheme in {"allI","allP"};do
    for tile in {1..9}; do
@@ -31,6 +32,7 @@ base_url="https://raw.githubusercontent.com/Waquas97/ABE-Streaming/master/Help36
 
 for i in {1..30}; do
     wget -L "${base_url}30MPDS-headtraces-symlinks/help360-HTTPS-4tiles-${i}.mpd"
+done
 
 for tile in {1..9}; do
     # Outer loop for the streams (0 to 4)
