@@ -471,7 +471,7 @@
 					<SegmentURL media="tile3-chunk-stream2-00147-copy3.m4s,tile1-chunk-stream2-00147-copy3.m4s,tile4-chunk-stream2-00147-copy3.m4s,tile6-chunk-stream2-00147-copy3.m4s" />
 				</SegmentList>
 			</Representation>
-			<Representation id="3" mimeType="video/mp4" codecs="avc1.64001f" bbandwidth="12000000" width="1280" height="640" sar="8:9">
+			<Representation id="3" mimeType="video/mp4" codecs="avc1.64001f" bandwidth="12000000" width="1280" height="640" sar="8:9">
 				<SegmentList timescale="1000000" duration="2000000" startNumber="1">
 					<Initialization sourceURL="init-stream3-copy3.m4s" />
 					<SegmentURL media="tile9-chunk-stream3-00001-copy3.m4s,tile1-chunk-stream3-00001-copy3.m4s,tile3-chunk-stream3-00001-copy3.m4s,tile7-chunk-stream3-00001-copy3.m4s" />
