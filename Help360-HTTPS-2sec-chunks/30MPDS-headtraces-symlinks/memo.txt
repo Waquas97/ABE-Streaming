@@ -1,0 +1,1 @@
+30 MPDS for one each client. unecrytped HTTPS segments of 2 seconds chunked video. symlinks used.
