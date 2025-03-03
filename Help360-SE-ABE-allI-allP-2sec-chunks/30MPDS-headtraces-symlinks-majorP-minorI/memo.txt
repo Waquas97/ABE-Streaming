@@ -1,0 +1,1 @@
+30 MPDS one for each client with MajorP MinorI scheme. 2 seconds video chunks. used symlinks
