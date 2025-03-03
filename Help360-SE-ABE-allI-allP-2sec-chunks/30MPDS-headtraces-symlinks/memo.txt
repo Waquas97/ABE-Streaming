@@ -1,0 +1,1 @@
+30 mpds one for each client. symlinks used to simulate 5 differnt videos based on zipf distribution. these are 2 seconnd chunks of video.
