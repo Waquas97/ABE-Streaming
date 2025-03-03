@@ -1,0 +1,1 @@
+30 mpds with allP scheme for each tile. one  Mpdfor each 30 client. symlinks used to simulate 5 differnt videos based on zipf distribution. these are 2 second chunks of video.
